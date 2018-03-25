@@ -182,7 +182,7 @@ void write_PWMF(uint8_t dutyCycle)
     timeON = (dutyCycle*1024u)/100u;
     CCP1CONbits.DC1B = timeON % 4u;
     timeON = (uint8_t)timeON >> 2; 
-    CCPR2L = timeON;
+    CCPR1L = timeON;
      
 }//end Forward PWM write function 
 
