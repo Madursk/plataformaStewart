@@ -1,0 +1,153 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4431 ]
+[d frameptr 4065 ]
+"8 C:\Microchip\xc8\v1.36\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Microchip\xc8\v1.36\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Microchip\xc8\v1.36\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Microchip\xc8\v1.36\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Microchip\xc8\v1.36\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Microchip\xc8\v1.36\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"38 C:\Users\MiguelAng\MPLABXProjects\SlaveStewart.X\Main/Main.c
+[v _ISR_high ISR_high `II(v  1 e 1 0 ]
+"70
+[v _main main `(v  1 e 1 0 ]
+"84
+[v _routineSelector routineSelector `(v  1 e 1 0 ]
+"103
+[v _init_GPIO init_GPIO `(v  1 e 1 0 ]
+"115
+[v _init_PERIPH init_PERIPH `(v  1 e 1 0 ]
+"127
+[v _write_PWMF write_PWMF `(v  1 e 1 0 ]
+"149
+[v _enable_Interrupts enable_Interrupts `(v  1 e 1 0 ]
+"5335 C:\Microchip\xc8\v1.36\include\pic18f4431.h
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"5419
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"5431
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"5515
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"5836
+[v _SSPCON SSPCON `VEuc  1 e 1 @4038 ]
+"6204
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"6210
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"6216
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"6313
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7750
+[v _BF BF `VEb  1 e 0 @32312 ]
+"7858
+[v _CKP CKP `VEb  1 e 0 @32308 ]
+"8000
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"8084
+[v _IPEN IPEN `VEb  1 e 0 @32391 ]
+"8146
+[v _LATC1 LATC1 `VEb  1 e 0 @31833 ]
+"8148
+[v _LATC2 LATC2 `VEb  1 e 0 @31834 ]
+"8468
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"8476
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"8636
+[v _SSPIE SSPIE `VEb  1 e 0 @31979 ]
+"8638
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"8640
+[v _SSPIP SSPIP `VEb  1 e 0 @31995 ]
+"8650
+[v _SSPOV SSPOV `VEb  1 e 0 @32310 ]
+"8840
+[v _TRISC1 TRISC1 `VEb  1 e 0 @31905 ]
+"8842
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"8858
+[v _TRISD2 TRISD2 `VEb  1 e 0 @31914 ]
+"8860
+[v _TRISD3 TRISD3 `VEb  1 e 0 @31915 ]
+"8970
+[v _WCOL WCOL `VEb  1 e 0 @32311 ]
+[s S21 . 1 `uc 1 I2CADD 1 0 :1:0 
+`uc 1 I2CDAT 1 0 :1:1 
+`uc 1 . 1 0 :6:2 
+]
+"33 C:\Users\MiguelAng\MPLABXProjects\SlaveStewart.X\Main/Main.c
+[v _GPREG GPREG `S21  1 e 1 0 ]
+"35
+[v _i2cData i2cData `uc  1 e 1 0 ]
+"70
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+} 0
+"127
+[v _write_PWMF write_PWMF `(v  1 e 1 0 ]
+{
+[v write_PWMF@dutyCycle dutyCycle `uc  1 a 1 wreg ]
+[v write_PWMF@dutyCycle dutyCycle `uc  1 a 1 wreg ]
+"129
+[v write_PWMF@dutyCycle dutyCycle `uc  1 a 1 22 ]
+"136
+} 0
+"8 C:\Microchip\xc8\v1.36\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 20 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 19 ]
+[v ___awdiv@counter counter `uc  1 a 1 18 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 14 ]
+[v ___awdiv@divisor divisor `i  1 p 2 16 ]
+"42
+} 0
+"84 C:\Users\MiguelAng\MPLABXProjects\SlaveStewart.X\Main/Main.c
+[v _routineSelector routineSelector `(v  1 e 1 0 ]
+{
+"93
+} 0
+"115
+[v _init_PERIPH init_PERIPH `(v  1 e 1 0 ]
+{
+"124
+} 0
+"103
+[v _init_GPIO init_GPIO `(v  1 e 1 0 ]
+{
+"113
+} 0
+"149
+[v _enable_Interrupts enable_Interrupts `(v  1 e 1 0 ]
+{
+"155
+} 0
+"38
+[v _ISR_high ISR_high `II(v  1 e 1 0 ]
+{
+"68
+} 0
